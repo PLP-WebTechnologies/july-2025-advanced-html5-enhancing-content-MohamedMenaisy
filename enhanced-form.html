@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Cars:</title>
+</head>
+<body>
+
+    <h1>My Cars</h1>
+
+    <section>
+        <h2>My Current Cars</h2>
+        <ul>
+            <li>Fiat</li>
+            <li>Opel</li>
+            <li>Toyota</li>
+        </ul>
+
+        <h2>Dream Cars</h2>
+        <ol>
+            <li>Ferrari</li>
+            <li>Lamborghini</li>
+            <li>Porsche</li>
+        </ol>
+
+        <h2>Dream Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Production Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ferrari</td>
+                    <td>488 pista</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Lamborghini</td>
+                    <td>Revuelto</td>
+                    <td>2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>multimedia</h2>
+
+        <img src="https://images.pexels.com/photos/2834653/pexels-photo-2834653.jpeg" alt="Placeholder Image" width="300">
+
+        <br><br>
+
+        <video width="320" height="240" controls>
+            <source src="https://videos.pexels.com/video-files/8443861/8443861-uhd_2560_1440_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section>
+        <h2>Contact Form</h2>
+        <form action="/submit" method="POST" autocomplete="on">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email"><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
